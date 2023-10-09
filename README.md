@@ -12,10 +12,14 @@ Once the script has been executed and the database has been created, modify the 
 Once you get this working, commit your code with a good meaningful message and push your code into your repo.
 
 # Part 2
-Create a PHP file called Part2.php which contains all the code from insertSQLData.php. To add this file to your repo type *** git add . *** and then push your file by typing ***git commit -am 'added Part2.php'*** 
+Create a PHP file called Part2.php which contains all the code from insertSQLData.php. To add this file to your repo type ***git add .*** and then push your file by typing ***git commit -am 'added Part2.php'*** 
 Retrieve the HTML code from the Week3 lab which showed a HTML form with firstname and surname. Save this html code to a file in your repo folder called newMember.php. Add and push this file by typing ***git add .*** and then push your file by typing ***git commit -am 'added newMember.html'***
 Modify the HTML form so that the "action" in the form tag is "Part2.php" and change the "method" attribute so that the form will use the POST method rather than GET. 
 Modify the code in Part2.php so that rather than inserting hard-coded data "John Doe" into the database, the program retrieves the data submitted by the newMember.html form and inserts it into the database as a new member.
+
+# Part 3
+Create a PHP file called Part3.php which contains all the code from insertSQLData.php. To add this file to your repo type ***git add .*** and then push your file by typing ***git commit -am 'added Part3.php'*** 
+Look up the Database section under PHP on the w3schools website. On the left bar, scroll down to the MySQL Data section and find the MySQL Select Data example. Make sure you scroll passed the MySQL Object Oriented version of the example to the MySQLi-Procedural version of the example.
 
 Once you get this working commit and push your code.
 
