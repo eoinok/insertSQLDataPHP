@@ -8,7 +8,8 @@ $password = "pass";
 $dbname = "database";
 $port = 3307;
 
-//set the default timezone - this is necessary for PHP8
+//set the default timezone - this is necessary since MySQL 8. This is an effort to store all dates and times together with their timezones. 
+//This is particularly important where there is a timestamp indicating when something happened.
 date_default_timezone_set('Europe/Dublin');
 
 // Create connection
