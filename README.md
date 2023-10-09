@@ -1,1 +1,8 @@
-"# insertSQLDataPHP" 
+"# insertSQLDataPHP"
+# Part 1
+From within Laragon click on the cog icon in the top right hand to open up the settings page. Click on the "Services and Ports" tab of the settings. Change the port for MySQL from 3306 to 3307. Click X in the top right hand corner to close the Settings. Now click on the Start All button and notice how the Database is listening on Port 3307. We need to do this because on the lab computers there is already a MySQL database Server listening on Port 3307. The Laragon MySQL database server is a separate instance of the MySQL Database Server which is listening on a separate port. In this way, we can run separate instances without them conflicting.
+
+Next, click on the Database button to start the Database Client Application. There are a number of different SQL client apps including MySQL Workbench. The one that comes with Laragon, HeidiSQL, is a popular application which is easy to use. Paste the SQL code from the CreateDatabase.sql script into the Query Window and press the "play" button this will execute the commands in the CreateDatabase.sql script and create a simple database called tennisclub which will include three tables, Members, |Courts and Bookings. To verify the data, create a new SQL query window, type ***Select * from Member;*** and execute the query by pressing the "play" button.
+
+Once the script has been created modify the credentials in the insertSQLData.php script so that the correct credentials are used to connect to the database.
+Execute the PHP script in insertSQLData.php by visiting http://localhost/week4Lab-yourGithubID/insertSQLData.php. If the credentials are the correct a new Member called John Doe should have been inserted as a Member of the tennisclub
