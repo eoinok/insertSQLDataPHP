@@ -11,4 +11,7 @@ Once the script has been executed and the database has been created, modify the 
 
 If you got this working then Commit your code with a good meaningful message and push your code into your repo.
 
+# Part 2
+Create a PHP file called Part2.php which contains all the code from insertSQLData.php. To add this file to your repo type *** git add . *** and then push your file by typing ***git commit -am 'added Part2.php*** 
+
 
